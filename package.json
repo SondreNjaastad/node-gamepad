@@ -1,0 +1,16 @@
+{
+  "name": "gamepad-napi-mac",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^7.1.1",
+    "node-gyp-build": "^4.8.4"
+  },
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "rebuild": "node-gyp rebuild",
+    "start": "node index.js"
+  }
+}
