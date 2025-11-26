@@ -13,7 +13,7 @@ Not meant for production — just me playing around.
 
 ## Example
 
-\`\`\`js
+```js
 const { Gamepad } = require('./build/Release/gamepad');
 
 console.log(Gamepad.enumerate());
@@ -23,7 +23,7 @@ const gp = new Gamepad({ path: Gamepad.enumerate()[0].path });
 gp.start((report) => {
   console.log("Report:", report); // null = disconnect
 });
-\`\`\`
+```
 
 ## Why this exists
 
